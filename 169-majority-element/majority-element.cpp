@@ -17,11 +17,11 @@ public:
         }
         int cnt=0;
         for(int i=0;i<nums.size();i++){
-            if(element==nums[i]){
+            if(nums[i]==element){
                 cnt++;
             }
         }
-        if(cnt>nums.size()/2){
+        if(cnt>(nums.size()/2)){
             return element;
         }
         return -1;
